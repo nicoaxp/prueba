@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px grey;
+}
+/* fdsglksjdfrñlgk */
+header {
+    background-color: #0092BE;
+    padding: 16px;
+}
+header img {
+    width: 100%;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 24px;
+}
+footer {
+    background-color: #0092BE;
+    color: rgb(8, 4, 56);
+    text-align: center;
+    font-size: 30px;
+    padding: 6px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    font-size: 22px;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    color: darkblue;
+    border: solid 1px darkblue;
+    border-radius: 10px;
+}
+nav li:hover {
+    background-color: darkblue;
+    color: cyan;
+}
+.azulo {
+    color: darkblue;
+}
+a {
+    text-decoration: none;
+}
+#home {
+    text-align: center;
+}
+
+.etiqueta {
+    color: red;
+    font-size: 34px;
+}
+.align-derecha {
+    text-align: right;
+}
+#enlaces a {
+    color: orangered;
+    font-size: 24px;
+}
+.titulo {
+    color: darkblue;
+    text-align: center;
+}
+
+/*Tablas*/
+
+#tablas table {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.tabla1 td {
+    background-color: #6495ed;
+}
+.tabla1 th {
+    background-color: #070746;
+    color: #4477e3;
+}
+#tcebra tr:nth-child(odd) td {
+    background-color: #f3cccc;
+}
+#tcebra tr:nth-child(even) td {
+    background-color: #cdcdf1;
+}
+
+/*Horario*/
+.default  {
+    color: #008080;
+}
+.default2 {
+    background-color: #f0f0f0;
+}
+#size {
+    font-size: 20px;
+}
+
+.lmsg {
+    background-color: #01b95c;
+}
+.ing {
+    background-color: #80ff81
+    ;
+}
+.bdd {
+    background-color: #64aa96;
+}
+.sisi {
+    background-color: #ff8002;
+}
+.prog {
+    background-color: #80ffff;
+}
+.fol {
+    background-color: #f0f0c8;
+}
+.ende {
+    background-color: #8080bf;
+}
+
+/*Listas*/
+
+#custom li {
+    list-style-type: square;
+}
+#custom li li {
+    list-style-image: url(../img/heart.png);
+}
+#custom li li li {
+    list-style-image: none;
+    list-style-type: circle;
+}
+
+#formbasico fieldset {
+    width: 60%;
+}
+#formvariado fieldset {
+    width: 70%;
+}
+
+
+#formmoderno { 
+    width: 80%;
+    margin: 0 auto;
+    }
+#formmoderno fieldset {
+    border-color: blue;
+    background-color: rgb(103, 253, 253);
+}
+#formmoderno legend {
+    color: blue;
+    font-size: 28px;
+}
+#formmoderno p {
+    font-size: 25px;
+    color: rgb(29, 96, 219);
+}
+#formmoderno input {
+    padding: 6px;
+    font-size: 20px;
+}
+
+/*
+Primero se indica el class o id y luego las etiquetas que van dentro del div o selector
+*/
