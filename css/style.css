@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 #container {
-    width: 80%;
+
     margin: 0 auto;
     box-shadow: 0 0 20px grey;
 }
@@ -37,8 +37,9 @@ nav {
 
 #contenido {
     width: 80%;
-    float: right;
+    float: center;
     padding-bottom: 24px;
+    margin: 0 auto;
 }
 footer {
     background-color: #c9261a;
@@ -73,6 +74,11 @@ a {
 }
 .titulo {
     color: darkblue;
+    text-align: center;
+}
+.formulariocentro form {
+    margin: 0 auto;
+
     text-align: center;
 }
 
@@ -155,8 +161,9 @@ a {
 
 
 #formmoderno { 
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
+
     }
 #formmoderno fieldset {
     border-color: blue;
@@ -171,8 +178,8 @@ a {
     color: rgb(29, 96, 219);
 }
 #formmoderno input {
-    padding: 6px;
-    font-size: 20px;
+    padding: 4px;
+    font-size: 16px;
 }
 
 /*

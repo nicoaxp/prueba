@@ -18,48 +18,50 @@
 <body>
     <div id="container">
         <header>
-            <img src="img/header.jpg" alt="html5">
+            <img src="img/header8.png" alt="html5">
         </header>
         <div id="principal">
             <nav>
                 <ul class="menu">
-                    <li><b>
-                          <!--  <h2>INICIO</h2>
-                        </b></li> -->
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="parrafos.html">PÁRRAFOS</a></li>
-                    <li><a href="enlaces.html">ENLACES</a></li>
-                    <li><a href="tablas.html">TABLAS</a></li>
-                    <li><a href="listas.html">LISTAS</a></li>
-                    <li><a href="formularios.html">FORMULARIOS</a></li>
-                    <li><a href="multimedia.html">MULTIMEDIA</a></li>
-                    <li><a href="formhtml5.html">FORM HTML5</a></li>
+                    <b>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="parrafos.html">PÁRRAFOS</a></li>
+                        <li><a href="enlaces.html">ENLACES</a></li>
+                        <li><a href="tablas.html">TABLAS</a></li>
+                        <li><a href="listas.html">LISTAS</a></li>
+                        <li><a href="formularios.html">FORMULARIOS</a></li>
+                        <li><a href="multimedia.html">MULTIMEDIA</a></li>
+                        <li>
+                            <h2>FORM HTML5</h2>
+                        </li>
+                    </b>
                 </ul>
             </nav>
             <div id="contenido">
                 <div id="formhtml5">
                     <h1 class="titulo">Formulario HTML5</h1>
-
-                    <form action="destino.php" method="post" id="formmoderno">
-                        <fieldset>
-                            <legend>Formulario Moderno</legend>
-                            <p>Email: <input type="email" name="email"></p>
-                            <p>Url: <input type="url" name="url"></p>
-                            <p>Teléfono: <input type="tel" name="telefono"></p>
-                            <p>Hora: <input type="time" name="hora"></p>
-                            <p>Fecha: <input type="date" name="fecha"></p>
-                            <p>Mes: <input type="month" name="mes"></p>
-                            <p>Semana: <input type="week" name="semana"></p>
-                            <p>Fecha y Hora: <input type="datetime-local" name="fechahora"></p>
-                            <p>Número: <input type="number" name="numero" step="2" min="10" max="30"></p>
-                            <p>Rango: <input type="range" name="rango" step="5" min="5" max="50"
-                                    onchange="updateTextInput(this.value);" />
-                                <input type="text" id="textInput" value="">
-                            </p>
-                            <p>Color: <input type="color" name=""></p>
-                            <input type="submit" value="Enviar">
-                        </fieldset>
-                    </form>
+                    <div class="formulariocentro">
+                        <form action="destino.php" method="post" id="formmoderno">
+                            <fieldset>
+                                <legend>Formulario Moderno</legend>
+                                <p>Email: <input type="email" name="email"></p>
+                                <p>Url: <input type="url" name="url"></p>
+                                <p>Teléfono: <input type="tel" name="telefono"></p>
+                                <p>Hora: <input type="time" name="hora"></p>
+                                <p>Fecha: <input type="date" name="fecha"></p>
+                                <p>Mes: <input type="month" name="mes"></p>
+                                <p>Semana: <input type="week" name="semana"></p>
+                                <p>Fecha y Hora: <input type="datetime-local" name="fechahora"></p>
+                                <p>Número: <input type="number" name="numero" step="2" min="10" max="30"></p>
+                                <p>Rango: <input type="range" name="rango" step="5" min="5" max="50"
+                                        onchange="updateTextInput(this.value);" />
+                                    <input type="text" id="textInput" value="">
+                                </p>
+                                <p>Color: <input type="color" name=""></p>
+                                <input type="submit" value="Enviar">
+                            </fieldset>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="cb"></div>
